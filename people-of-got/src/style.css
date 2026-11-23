@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+}
+
+.got-header {
+  height:150px;
+  width: 100%;
+  padding: 2rem 1rem;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background:
+    repeating-conic-gradient(
+      rgba(255, 255, 255, 0.08) 0% 25%,
+      transparent 0% 50%
+    )
+    0 0 / 4px 4px,
+    linear-gradient(
+      to right,
+      #76a9fa,
+      #9061f9
+    );
+}
